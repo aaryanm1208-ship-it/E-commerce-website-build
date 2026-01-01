@@ -1,0 +1,48 @@
+/* Amazon Signature Styling */
+body {
+  background-color: #EAEDED; /* Amazon's light grey background */
+  margin: 0;
+}
+
+.amazon-header {
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.product-card {
+  background-color: white;
+  z-index: 1;
+  margin: 10px;
+  padding: 20px;
+  width: 220px;
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s;
+  border-radius: 5px;
+}
+
+.product-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.amazon-button {
+  background: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.amazon-button:hover {
+  background: #ddb347;
+}
